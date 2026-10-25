@@ -34,3 +34,16 @@ Il sistema si compone di due moduli principali:
 3. **Installa le dipendenze Python:**
    ```bash
    pip install pandas psycopg2-sqlalchemy ollama
+
+   Avvia Ollama sul tuo PC con il modello Llama 3 attivo:
+
+Bash
+ollama run llama3
+Esegui la pipeline ETL:
+
+Python
+python etl_pipeline.py
+Esegui l'agente AI:
+
+Python
+python ai_agent.py
